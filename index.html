@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/795324b618.js" crossorigin="anonymous"></script>
+  <style>
+  @layer base {
+    @font-face {
+      font-family: "Pricedown";
+      src: url("./fonts/Pricedown Bl.otf") format("opentype");
+    }
+    @font-face {
+      font-family: "namefont";
+      src: url("./fonts/Akira Expanded Demo.otf") format("opentype");
+    }
+  }
+  </style>
+</head>
+
+<body class="bg-[#10172a] bg-cover bg-center bg-no-repeat text-center font-[Playfair_Display] text-blue-400">
+
+  <div id="content" class="flex flex-col items-center px-4">
+    <h1 id="name" class="font-[namefont] text-[40px] mt-6">Akash Shrivas Ravishankar</h1>
+    <img id="myphoto" 
+         src="./pics/photo.jpg" 
+         class="h-[200px] w-[200px] rounded-full object-cover mx-auto my-4 shadow-lg shadow-black/40" />
+ <style>
+      @keyframes cursor { 50% { border-color: transparent; } }
+      @keyframes typing { from { width: 0 } to { width: 27ch } }
+    </style>
+
+    <h1 id="animated"
+        class="font-[Pricedown] text-3xl border-r-2 border-white overflow-hidden whitespace-nowrap inline-block animate-[typing_2s_steps(27,end)_forwards,cursor_0.4s_step-end_infinite_alternate] mt-3">
+        hey there, i'm learning webdev
+    </h1>
+    <section class="max-w-2xl mt-8">
+      <h2 class="text-xl font-semibold mb-2">Who I am</h2>
+      <p>
+        Hey there! I'm Akash! I'm currently learning webdev as of now; I just finished learning HTML and I'm exploring the wide domains of CSS. I wish to learn JavaScript and the later programming languages required to excel in webdev in the future :)
+      </p>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+    <section class="max-w-3xl">
+      <h2 class="text-xl font-semibold mb-2">Where I've studied</h2>
+      <ul class="space-y-3">
+        <li>The PSBB Millennium School, GST ROAD - Kindergarten (2010–2013)</li>
+        <li>The PSBB Millennium School, Gerugambakkam - Grade I–III (2013–2015)</li>
+        <li>Phoenix Greens School of Learning, Kokapet - Grade III (2015–2016)</li>
+        <li>The PSBB Millennium School, Gerugambakkam - Grade III–VI (2016–2018)</li>
+        <li>Podar International School, Powai - Grade VI–X (2018–2023)</li>
+        <li>R.N. Podar School, Powai - Grade X–XII (2023–2025)</li>
+        <li>Bachelor of Technology in Computer Science and Engineering, Manipal Institute of Technology (2025–2029)</li>
+      </ul>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+
+    <section class="max-w-2xl">
+      <h2 class="text-xl font-semibold mb-2">Work Experience</h2>
+      <div>
+        <h3 class="font-semibold text-lg">National Social Scheme (NSS)</h3>
+        <ul class="space-y-2">
+          <li>Visited ASARE, a rehabilitation centre for patients with personality disorders. Helped and aided the patients.</li>
+          <li>Led a team of 25 members on cleaning The Malpe Beach on 20th September, The International Coastal Clean-up Day.</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Skills</h2>
+      <ul class="space-y-2">
+        <li>Leadership ⭐⭐⭐</li>
+        <li>Web Development ⭐⭐</li>
+        <li>Video Editing ⭐⭐⭐</li>
+      </ul>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Awards and Certifications</h2>
+      <ul class="space-y-2">
+        <li>U-10 Don Bosco Cricket Tournament (2014)</li>
+        <li>NSS Beach Cleaning Volunteer (2025)</li>
+      </ul>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+    <section class="max-w-2xl">
+      <h2 class="text-xl font-semibold mb-2">Hobbies</h2>
+      <ul class="space-y-2">
+        <li>After classes, I usually hit the gym and play badminton with my friends.</li>
+        <li>I'm also into anime — you can see a list of my favourite animes 
+          <a href="./anime.html" class="text-blue-300 underline hover:text-blue-200">HERE</a>.
+        </li>
+      </ul>
+    </section>
+
+    <hr class="my-6 w-3/4 border-gray-400">
+
+    <section>
+      <h2 class="text-xl font-semibold mb-4">Contact Me</h2>
+      <div class="flex justify-center space-x-6 text-lg">
+        <p class="hover:text-violet-300">fraspy <i class="fa-brands fa-discord"></i></p>
+        <p><a href="https://www.linkedin.com/in/akash-shrivas-ravishankar-1a8203285/" target="_blank" class="hover:text-blue-300">LinkedIn <i class="fa-brands fa-linkedin"></i></a></p>
+        <p><a href="https://www.instagram.com/akash.fsp/" target="_blank" class="hover:text-pink-400">Instagram <i class="fa-brands fa-instagram"></i></a></p>
+      </div>
+    </section>
+    <hr class="my-6 w-3/4 border-gray-400">
+  </div>
+
+  
+  <footer class="text-sm mb-4">©️ Akash Shrivas Ravishankar. All rights reserved</footer>
+
+</body>
+</html>
